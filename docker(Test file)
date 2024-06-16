@@ -1,0 +1,14 @@
+#this is done to create a custom docker file using vs code. a custom js project was copied to container from local path to a working directory of the container.
+
+FROM node:20
+
+WORKDIR /myapp
+
+COPY . /myapp/
+
+RUN npm install
+
+EXPOSE 3000
+
+CMD [ "npm","start" ]
+

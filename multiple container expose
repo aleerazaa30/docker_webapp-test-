@@ -1,0 +1,5 @@
+#to create multiple containers you can expose a single container to multiple external ports
+
+docker run -d -p 3001:3000 509e338bc710
+
+#Docker run (-detach) (-Port) external Port : Internal Port Docker COntainer ID

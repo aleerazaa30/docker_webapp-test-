@@ -3,3 +3,7 @@
 docker run -d -p 3001:3000 509e338bc710
 
 #Docker run (-detach) (-Port) external Port : Internal Port Docker COntainer ID
+
+docker run -d --rm --name "mytest2" -p 3003:3000 509e338bc710
+
+Docker Run -Detach --remove after execution untill stopped --name Name the container -port  external Port : Internal Port Container ID

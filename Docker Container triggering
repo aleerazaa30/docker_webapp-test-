@@ -1,0 +1,4 @@
+#In order to trigger a container, first we have to expose the container to external world by exposing the port.
+
+docker run -p 3000:3000 509e338bc710
+#Docker run (-port) external_Port:Internal_port_of_COntainer Container_Name
